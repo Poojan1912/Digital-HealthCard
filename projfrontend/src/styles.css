@@ -1,0 +1,96 @@
+
+#header-main{
+    font-family: 'Bebas Neue', cursive;
+    text-align: center;
+    background-color: blue;
+    color: white;
+    margin: 0 35% 0 35%;
+    letter-spacing: 1.25px; 
+    font-size: larger;
+    /* transform:scaleX(120%); */
+}
+#signup-body{
+    background-color: #10E7DC;
+}
+
+
+#form-main {
+   max-width: 950px;
+   padding: 15px;
+   margin: auto auto;
+   border-radius: 0.4em;
+   /* background-color: #f2f2f2; */
+   background-color: rgba(255,255,255,.8);
+   box-shadow: 2px 2px 20px rgba(0,0,0,.5);
+}
+#form-main2 {
+    max-width: 450px;
+    padding: 10px;
+    margin: auto auto;
+    border-radius: 0.4em;
+    /* background-color: #f2f2f2; */
+    background-color: rgba(255,255,255,.8);
+    box-shadow: 2px 2px 20px rgba(0,0,0,.5);
+ }
+
+/* #form-main2 h2 { 
+   font-family: 'Open Sans' , sans-serif;
+   font-size: 20px;
+   font-weight: 600;
+   color: #000000;
+   margin-top: 5%;
+   text-align: center;
+   text-transform: uppercase;
+   letter-spacing: 2px;
+} */
+label{
+    font-size: 18px;
+    font-family: 'Poppins', sans-serif;
+    text-shadow: 0px 0px 2px white;
+}
+#help-block{
+    font-size: 18px;
+    color: red;
+}
+#center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+#text-form{
+    font-size: 15px;
+}
+#header-form{
+    font-family: 'Bebas Neue', cursive;
+    text-align: center;
+    background-color: blue;
+    color: white;
+    letter-spacing: 1.25px; 
+    font-size: larger;
+}
+#Login-form{
+    margin-top: 20px;
+    text-align: center;
+}
+#container{
+    max-width: 300px;
+
+}
+#bcontent {
+    margin-top: 10px;
+}
+#nav-margin-user{
+    margin-right: 210%;
+}
+#left-align{
+   
+    justify-content: left;
+    align-items: left;
+}
+
+
+@media print {
+   .noprint {
+      visibility: hidden;
+   }
+}
